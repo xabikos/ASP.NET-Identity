@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.Identity", "Asp.Identity\Asp.Identity.csproj", "{926BD3A6-47C9-4E89-A2C4-839CC6810E01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5660E028-5E50-4216-A0D6-AB5F19339D98}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.Identity.EntityFramework", "EntityFramework\Asp.Identity.EntityFramework\Asp.Identity.EntityFramework.csproj", "{CBD61594-CBAC-4768-82A0-3CDEAFEA98AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.Identity.EntityFramework.Web", "EntityFramework\Asp.Identity.EntityFramework.Web\Asp.Identity.EntityFramework.Web.csproj", "{F228D29A-C247-429C-89F7-8E04039C3C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{926BD3A6-47C9-4E89-A2C4-839CC6810E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926BD3A6-47C9-4E89-A2C4-839CC6810E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926BD3A6-47C9-4E89-A2C4-839CC6810E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926BD3A6-47C9-4E89-A2C4-839CC6810E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD61594-CBAC-4768-82A0-3CDEAFEA98AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD61594-CBAC-4768-82A0-3CDEAFEA98AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD61594-CBAC-4768-82A0-3CDEAFEA98AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD61594-CBAC-4768-82A0-3CDEAFEA98AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F228D29A-C247-429C-89F7-8E04039C3C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F228D29A-C247-429C-89F7-8E04039C3C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F228D29A-C247-429C-89F7-8E04039C3C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F228D29A-C247-429C-89F7-8E04039C3C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
